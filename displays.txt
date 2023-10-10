@@ -1,0 +1,21 @@
+Current Status: Inactive                    => Router Check
+Band                                                             => Router Check
+Signal strength                             => Router Check
+Connectivity: LTE                           => Router Check
+Carrier: Ittisalat-Al Maghrib               => router Check
+Used data 3 GB Available data 7GB           => Router Check
+Session time:  10 minutes                   => Router Check
+Consumed data during this session:2.4 GB    => Router Check
+
+
+Altitude 200m                       => Sensor linked to raspberry pi
+Atmospheric pressure 1089 hPa       => Sensor linked to raspberry pi
+Battery perc. 27%                   => Sensor linked to raspberry pi
+Output voltage 19.2V                => Sensor linked to raspberry pi
+Output amperage 4A                  => Sensor linked to raspberry pi
+
+
+Static info:
+    - Capacity 2500mAH/3000mAH
+    - GSM REPEATER Status => ON if raspberry pi is ON (Share same power source)
+    - Current plan Forfait Liberté 99 DHS

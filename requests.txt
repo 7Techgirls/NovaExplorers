@@ -1,0 +1,48 @@
+SEND:
+5&5
+[WAN_COMMON_INTF_CFG#0,0,0,0,0,0#0,0,0,0,0,0]0,1
+WANAccessType
+[LTE_WAN_CFG#0,0,0,0,0,0#0,0,0,0,0,0]1,1
+dataSwitchStatusBackup
+
+VM186:5 RECV:
+[1,0,0,0,0,0]0
+WANAccessType=Ethernet
+[2,0,0,0,0,0]0
+WANAccessType=LTE
+[1,1,0,0,0,0]1
+dataSwitchStatusBackup=1
+[2,1,0,0,0,0]1
+dataSwitchStatusBackup=1
+[error]0
+
+
+var acesstype = await getInfo('WAN_COMMON_INTF_CFG', ["WANAccessType"]);
+
+
+
+[
+  {
+    req: [
+      5,
+      'LAN_WLAN',
+      [ 'SSID', 'BSSID', 'X_TP_Band', 'X_TP_Bandwidth', 'Enable' ]
+    ],
+    res: {
+      stack: '1,1,0,0,0,0',
+      attributes: {
+        SSID: 'Skylinker AP',
+        BSSID: '9C:53:22:AB:E9:0C',
+        X_TP_Band: '2.4GHz',
+        X_TP_Bandwidth: 'Auto',
+        enable: '1'
+      }
+    }
+  },
+  {
+
+  },
+  {
+    
+  }
+]

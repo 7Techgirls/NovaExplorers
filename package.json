@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "nova": "node app.js"
+  },
+  "main": "app.js",
+  "type": "module",
+  "dependencies": {
+    "arduino-iot-js": "^0.11.0",
+    "tl-api": "^1.0.0"
+  }
+}
