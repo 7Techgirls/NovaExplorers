@@ -4,7 +4,7 @@ import { ArduinoIoTCloud } from 'arduino-iot-js';
 const baseUrl = "http://192.168.4.1";
 
 const { info, ...context } = await authenticate(baseUrl, {
-  password: "5GeTpI7jTS8KRqHw"});
+  password: "***************"});
 
 // Connect to arduino cloud
 
